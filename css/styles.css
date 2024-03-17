@@ -64,3 +64,20 @@ q{
     width: 35%;
     height: 35%;
 }
+
+.kontak{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.tag{
+    color: black;
+    font-family: serif;
+    padding-left: 15px;
+}
+
+.img_kontak{
+    width: 100px;
+    height: 100px;
+}
