@@ -1,0 +1,66 @@
+*{
+    font-family: tahoma;
+    padding: 0%;
+    margin: 0%;
+}
+
+h1{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+ul{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+}
+
+.link{
+    padding: 10px;
+    list-style-type: none;
+    
+}
+
+.link:hover{
+    background-color: #0d5ce4;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.paragraf{
+   padding-left: 10px;
+}
+q{
+    background-color:  #0d5ce4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+/* lainnya */
+
+.click{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_click{
+    width: 35%;
+    height: 35%;
+}
