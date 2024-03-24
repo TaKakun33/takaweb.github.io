@@ -4,7 +4,9 @@
     margin: 0%;
 }
 
+
 h1{
+    font-size: 300%;
     background-color: black;
     color: aliceblue;
     padding: 10px;
@@ -13,6 +15,25 @@ h1{
     align-items: center;
 }
 
+h2{
+    font-size: 250%;
+    font-family:sans-serif;
+    padding-left: 10px;
+}
+
+h3{
+    font-size: 120%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.link{
+    padding: 10px;
+    list-style-type: none;
+    
+}
 
 ul{
     height: 50px;
@@ -22,14 +43,13 @@ ul{
     background-color: #222;
 }
 
-.link{
-    padding: 10px;
-    list-style-type: none;
-    
-}
-
 .link:hover{
     background-color: #0d5ce4;
+}
+
+.paragraf{
+    padding-left:10dvh;
+    padding-right:10dvh;
 }
 
 a{
@@ -37,9 +57,6 @@ a{
     text-decoration: none;
 }
 
-.paragraf{
-   padding-left: 10px;
-}
 q{
     background-color:  #0d5ce4;
     display: flex;
@@ -80,4 +97,16 @@ q{
 .img_kontak{
     width: 100px;
     height: 100px;
+}
+
+.devin{
+    background-color: white;
+    display:contents;
+    color: black;;
+}
+
+.item{
+    padding: 10px;
+    list-style-type: none;
+    
 }
