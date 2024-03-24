@@ -16,13 +16,11 @@ h1{
 }
 
 h2{
-    font-size: 250%;
     font-family:sans-serif;
     padding-left: 10px;
 }
 
 h3{
-    font-size: 120%;
     display: flex;
     justify-content: center;
 }
