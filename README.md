@@ -14,10 +14,11 @@ Personal portfolio website built with vanilla HTML, CSS, and JavaScript. Hosted 
 ## Structure
 
 ```
+└── README.md
+└── favicon.svg
 ├── index.html
 ├── style.css
 ├── script.js
-└── README.md
 ```
 
 ## License
