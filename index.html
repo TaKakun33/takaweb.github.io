@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akmal Kafli Anan — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Phosphor Icons CDN -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">TaKa</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#hero" class="nav-resume">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+
+      <!-- Left: Text -->
+      <div class="hero-text">
+        <p class="hero-eyebrow">Informatics Student &nbsp;·&nbsp; Beginner Developer</p>
+
+        <h1 class="hero-name">
+          Akmal<br />
+          <span class="name-accent">Kafli Anan.</span>
+        </h1>
+
+        <p class="hero-bio">
+          i am a Informatics student at Universitas Diponegoro passionate about
+          software engineering, cybersecurity exploitation, and artificial
+          intelligence integration.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+
+        <!-- Social links -->
+        <div class="hero-socials">
+          <a href="https://github.com/TaKakun33" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="ph ph-github-logo"></i>
+          </a>
+          <a href="https://linkedin.com/in/akmal-kafli-anan-162508292" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="ph ph-linkedin-logo"></i>
+          </a>
+          <a href="https://instagram.com/akmal_kafli_anan" target="_blank" rel="noopener" aria-label="Instagram">
+            <i class="ph ph-instagram-logo"></i>
+          </a>
+          <a href="mailto:akmalkaflianan@gmail.com" aria-label="Email">
+            <i class="ph ph-envelope-simple"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: Code card -->
+      <div class="hero-code-card">
+        <div class="code-card-header">
+          <span class="dot dot-red"></span>
+          <span class="dot dot-yellow"></span>
+          <span class="dot dot-green"></span>
+          <span class="code-card-filename">Portfolio.java</span>
+        </div>
+        <pre class="code-block"><code><span class="c-keyword">public class</span> <span class="c-class">Portfolio</span> {
+
+  <span class="c-type">String</span> name = <span class="c-string">"Akmal Kafli Anan"</span>;
+  <span class="c-type">String</span> role = <span class="c-string">"Informatics Student"</span>;
+  <span class="c-type">String</span> university = <span class="c-string">"Diponegoro University"</span>;
+
+  <span class="c-type">String</span>[] Focus = {
+    <span class="c-string">"Software Development"</span>,
+    <span class="c-string">"Cybersecurity"</span>,
+    <span class="c-string">"Artificial Intelligence"</span>
+  };
+
+  <span class="c-type">String</span>[] techStack = {
+    <span class="c-string">"Java"</span>, <span class="c-string">"Python"</span>, <span class="c-string">"JavaScript"</span>, <span class="c-string">"C"</span>,
+    <span class="c-string">"Unity"</span>, <span class="c-string">"Linux"</span>, <span class="c-string">"MySQL"</span>, <span class="c-string">"Figma"</span>
+  };
+}</code></pre>
+      </div>
+
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator">
+      <i class="ph ph-arrow-down"></i>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="section-inner">
+      <div class="section-header">
+        <div class="section-label">
+          <span class="section-num">02</span>
+          <span class="section-slash">/</span>
+          <span class="section-tag">Work</span>
+        </div>
+        <div class="section-title-row">
+          <h2 class="section-title">Selected Projects</h2>
+          <span class="project-count">4 projects</span>
+        </div>
+      </div>
+
+      <div class="projects-grid">
+
+        <a class="project-card" href="https://github.com/TaKakun33/ProjectAI-2026" target="_blank" rel="noopener">
+          <div class="card-meta">
+            <span class="card-num">01</span>
+            <div class="card-meta-right">
+              <span class="card-year">2026</span>
+              <span class="card-link-icon" aria-hidden="true">
+                <i class="ph ph-arrow-up-right"></i>
+              </span>
+            </div>
+          </div>
+          <h3 class="card-title">CogniPace AI</h3>
+          <p class="card-desc">
+            An AI-powered web application that helps students predict their study
+            workload, visualize upcoming deadlines, generate automated priority
+            schedules, and discuss assignment loads in real-time via an interactive
+            academic chatbot.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Streamlit</span>
+            <span class="tag">Groq API</span>
+            <span class="tag">ollama</span>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://github.com/TaKakun33/Nyawit_Game" target="_blank" rel="noopener">
+          <div class="card-meta">
+            <span class="card-num">02</span>
+            <div class="card-meta-right">
+              <span class="card-year">2026</span>
+              <span class="card-link-icon" aria-hidden="true">
+                <i class="ph ph-arrow-up-right"></i>
+              </span>
+            </div>
+          </div>
+          <h3 class="card-title">Nyawit Game</h3>
+          <p class="card-desc">
+            A casual 2D arcade game built using the Unity 6 engine. You must catch
+            palm fruit falling from the sky preventing them from hitting the ground
+            and dodge falling bombs by controlling a character with the arrow keys or
+            WASD to move left or right.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Unity</span>
+            <span class="tag">C#</span>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://github.com/TaKakun33/TugasAkhir-PBO" target="_blank" rel="noopener">
+          <div class="card-meta">
+            <span class="card-num">03</span>
+            <div class="card-meta-right">
+              <span class="card-year">2026</span>
+              <span class="card-link-icon" aria-hidden="true">
+                <i class="ph ph-arrow-up-right"></i>
+              </span>
+            </div>
+          </div>
+          <h3 class="card-title">Flight Ticket Booking System</h3>
+          <p class="card-desc">
+            A Java Swing (GUI) desktop application for flight ticket booking that
+            connects to a MySQL database. It is built using the MVC (Model-View-Controller)
+            architecture and supports the complete booking workflow, from schedule
+            searching to boarding pass printing.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Java</span>
+            <span class="tag">NetBeans</span>
+            <span class="tag">MySQL</span>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://github.com/TaKakun33/TugasGTI-2026" target="_blank" rel="noopener">
+          <div class="card-meta">
+            <span class="card-num">04</span>
+            <div class="card-meta-right">
+              <span class="card-year">2026</span>
+              <span class="card-link-icon" aria-hidden="true">
+                <i class="ph ph-arrow-up-right"></i>
+              </span>
+            </div>
+          </div>
+          <h3 class="card-title">Imagine Getting Noclipped (IGN)</h3>
+          <p class="card-desc">
+            In this game, players navigate a dark, mapped maze from a first-person
+            perspective. The objective is to survive and defeat enemy entities using
+            shooting mechanics, while navigating wall obstacles and evading attacks
+            from enemies pursuing the player.
+          </p>
+          <div class="card-tags">
+            <span class="tag">OpenGL</span>
+            <span class="tag">GLUT</span>
+            <span class="tag">C++</span>
+          </div>
+        </a>
+
+      </div><!-- /projects-grid -->
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="section-inner">
+      <div class="section-header">
+        <div class="section-label">
+          <span class="section-num">03</span>
+          <span class="section-slash">/</span>
+          <span class="section-tag">Capabilities</span>
+        </div>
+        <h2 class="section-title">Technical Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-card-header">
+            <div class="skill-icon">
+              <i class="ph ph-code"></i>
+            </div>
+            <h4 class="skill-category">Languages</h4>
+          </div>
+          <ul class="skill-list">
+            <li>Python</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>C#</li>
+            <li>php</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-header">
+            <div class="skill-icon">
+              <i class="ph ph-game-controller"></i>
+            </div>
+            <h4 class="skill-category">Game Dev</h4>
+          </div>
+          <ul class="skill-list">
+            <li>Unity 6</li>
+            <li>OpenGL</li>
+            <li>C# (Scripting)</li>
+            <li>2D Physics &amp; Animation</li>
+            <li>Sprite Creation using Piskel</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-header">
+            <div class="skill-icon">
+              <i class="ph ph-shield-check"></i>
+            </div>
+            <h4 class="skill-category">Cyber Security</h4>
+          </div>
+          <ul class="skill-list">
+            <li>Linux</li>
+            <li>Capture The Flag (CTF)</li>
+            <li>Basic Cryptography</li>
+            <li>Web Exploitation</li>
+            <li>Network Analysis</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-header">
+            <div class="skill-icon">
+              <i class="ph ph-globe"></i>
+            </div>
+            <h4 class="skill-category">Web Dev</h4>
+          </div>
+          <ul class="skill-list">
+            <li>HTML &amp; CSS</li>
+            <li>Flask</li>
+            <li>Streamlit</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+
+      </div><!-- /skills-grid -->
+
+      <!-- Stats bar -->
+      <div class="stats-bar">
+        <div class="stat-item">
+          <span class="stat-num">12+</span>
+          <span class="stat-label">Projects Built</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">7+</span>
+          <span class="stat-label">Languages</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">5</span>
+          <span class="stat-label">Years Coding</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">3.80</span>
+          <span class="stat-label">GPA (for now)</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section-inner">
+      <div class="section-header">
+        <div class="section-label">
+          <span class="section-num">04</span>
+          <span class="section-slash">/</span>
+          <span class="section-tag">Contact</span>
+        </div>
+        <h2 class="section-title">Get in Touch</h2>
+      </div>
+
+      <div class="contact-layout">
+
+        <!-- Left: Info -->
+        <div class="contact-info">
+          <p class="contact-intro">
+            I'm open to new projects, collaborations, or internship opportunities.
+            Let's build something together! I usually respond within 24 hours.
+          </p>
+
+          <ul class="contact-links">
+            <li>
+              <i class="ph ph-envelope-simple"></i>
+              <a href="mailto:akmalkaflianan@gmail.com">akmalkaflianan@gmail.com</a>
+            </li>
+            <li>
+              <i class="ph ph-github-logo"></i>
+              <a href="https://github.com/TaKakun33" target="_blank" rel="noopener">TaKakun33</a>
+            </li>
+            <li>
+              <i class="ph ph-linkedin-logo"></i>
+              <a href="https://linkedin.com/in/akmal-kafli-anan-162508292" target="_blank" rel="noopener">Akmal Kafli Anan</a>
+            </li>
+            <li>
+              <i class="ph ph-instagram-logo"></i>
+              <a href="https://instagram.com/akmal_kafli_anan" target="_blank" rel="noopener">@akmal_kafli_anan</a>
+            </li>
+          </ul>
+
+          <p class="availability">
+            <span class="avail-dot"></span>
+            Available for opportunities starting <strong>June 2026</strong>
+          </p>
+        </div>
+
+        <!-- Right: Form -->
+        <div class="contact-form-wrap">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="your@email.com" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Tell me about the opportunity, project, or collaboration..."></textarea>
+          </div>
+          <button class="btn btn-send" id="send-btn">
+            <i class="ph ph-paper-plane-tilt"></i>
+            Send Message
+          </button>
+          <!-- Toast notification -->
+          <div class="form-toast" id="form-toast"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-copy">© 2026 Akmal Kafli Anan</p>
+      <div class="footer-socials">
+        <a href="https://github.com/TaKakun33" target="_blank" rel="noopener" aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
+        <a href="https://linkedin.com/in/akmal-kafli-anan-162508292" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+        <a href="https://instagram.com/akmal_kafli_anan" target="_blank" rel="noopener" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+        <a href="mailto:akmalkaflianan@gmail.com" aria-label="Email"><i class="ph ph-envelope-simple"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
