@@ -2,7 +2,7 @@
 
 Personal portfolio website built with vanilla HTML, CSS, and JavaScript. Hosted on GitHub Pages.
 
-🔗 **Live:** [https://takakun33.github.io](https://takakun33.github.io/takaweb.github.io/)
+🔗 **Live:** [takakun33.github.io/TaKaWeb](https://takakun33.github.io/TaKaWeb/)
 
 ## Stack
 
